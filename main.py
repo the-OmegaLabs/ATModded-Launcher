@@ -1,5 +1,5 @@
-import requests
+import spliting
 import os
 
-baseURL = 'https://cdn.stevesuk.eu.org/pcl2/'
-requests.get(f'{baseURL}')
+
+spliting.merge_from_url('https://cdn.stevesuk.eu.org/launcher', 'pcl2.exe')
