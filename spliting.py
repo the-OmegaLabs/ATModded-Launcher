@@ -44,9 +44,11 @@ def merge_from_local(parts_dir, output_path):
     try:
         base64.b64decode(combined, validate=True)
     except binascii.Error:
-        raise ValueError("Invalid Base64 data after merging chunks")
+        return False
     
     decode_file(combined, output_path)
+
+    return True
 
 def download_chunk(i, base_url, save_dir):
     try:
@@ -58,10 +60,10 @@ def download_chunk(i, base_url, save_dir):
         with open(save_path, 'wb') as f:
             f.write(response.content)
             
-        print(f'成功补全文件 {base_url.split("/")[-1]} 的第 {i} 块。')
+        print(f'成功补全依赖 {base_url.split("/")[-1]} 的第 {i} 块。')
         return True
     except Exception as e:
-        print(f'补全文件 {base_url.split("/")[-1]} 的第 {i} 块时出现错误。')
+        print(f'补全依赖 {base_url.split("/")[-1]} 的第 {i} 块时出现错误：{e}。')
         return False
 
 def cleanup(foldername):
