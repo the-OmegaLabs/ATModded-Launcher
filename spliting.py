@@ -3,6 +3,7 @@ import os
 import time
 import requests
 import binascii
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def encode_file(path):
@@ -60,11 +61,12 @@ def download_chunk(i, base_url, save_dir):
         with open(save_path, 'wb') as f:
             f.write(response.content)
             
-        print(f'成功补全依赖 {base_url.split("/")[-1]} 的第 {i} 块。')
+        sys.stdout.write(f'██')
+        sys.stdout.flush()
         return True
     except Exception as e:
-        print(f'补全依赖 {base_url.split("/")[-1]} 的第 {i} 块时出现错误：{e}。')
-        return False
+        print(f'\n补全依赖 {base_url.split("/")[-1]} 的第 {i} 块时出现错误：{e}。')
+        exit(False)
 
 def cleanup(foldername):
     oldPath = os.getcwd()
@@ -80,6 +82,8 @@ def merge_from_url(base_url, output_path):
     temp_dir = os.path.join(os.getcwd(), f'download_{timestamp}')
     os.makedirs(temp_dir, exist_ok=True)
     
+    sys.stdout.write(f'正在补全依赖 {base_url.split("/")[-1]}: [')
+    sys.stdout.flush()
     success = True
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(download_chunk, i, base_url, temp_dir) 
@@ -88,6 +92,8 @@ def merge_from_url(base_url, output_path):
         for future in as_completed(futures):
             if not future.result():
                 success = False
+
+    print(']')
     if success:
         merge_from_local(temp_dir, output_path)
         cleanup(temp_dir)

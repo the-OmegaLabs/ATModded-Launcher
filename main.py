@@ -4,25 +4,23 @@ import check
 version = 'b1'
 
 def checkDepend():
+    print('正在检查依赖...')
     os.makedirs('game', exist_ok=True)
     os.makedirs('runtime', exist_ok=True)
 
-    status = {}
-    print('正在检查依赖 \"pcl\"')
-    status['pcl'] = check.checkLauncher()
-    print('正在检查依赖 \"OpenJDK\"')
-    status['openjdk'] = check.checkOpenJDK()
+    print(f'正在检查 launcher...', end='')
+    check.checkLauncher()
+    print(f'正在检查 openjdk...', end='')
+    check.checkOpenJDK()
 
-    return status
+
 
 
 def main():
-    print('正在检查并补全依赖...')
-    dependStatus = checkDepend()
-    for i in dependStatus:
-        print(f"依赖 {i}: {dependStatus[i]}")
+    checkDepend()
 
 
 
 if __name__ == '__main__':
+    print(f'ATMod Client {version}')
     main()
