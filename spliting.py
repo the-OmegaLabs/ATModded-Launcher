@@ -58,10 +58,10 @@ def download_chunk(i, base_url, save_dir):
         with open(save_path, 'wb') as f:
             f.write(response.content)
             
-        print(f'成功补全文件 {base_url.split('/')[-1]} 的第 {i} 块。')
+        print(f'成功补全文件 {base_url.split("/")[-1]} 的第 {i} 块。')
         return True
     except Exception as e:
-        print(f'补全文件 {base_url.split('/')[-1]} 的第 {i} 块时出现错误。')
+        print(f'补全文件 {base_url.split("/")[-1]} 的第 {i} 块时出现错误。')
         return False
 
 def cleanup(foldername):
@@ -79,7 +79,7 @@ def merge_from_url(base_url, output_path):
     os.makedirs(temp_dir, exist_ok=True)
     
     success = True
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(download_chunk, i, base_url, temp_dir) 
                   for i in range(10)]
         

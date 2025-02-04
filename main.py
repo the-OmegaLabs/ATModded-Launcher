@@ -2,4 +2,4 @@ import spliting
 import os
 
 
-spliting.merge_from_url('https://cdn.stevesuk.eu.org/launcher', 'pcl2.exe')
+spliting.merge_from_url('https://cdn.stevesuk.eu.org/pcl', 'pcl2.exe')
