@@ -85,7 +85,7 @@ def merge_from_url(base_url, output_path):
     sys.stdout.write(f'正在补全依赖 {base_url.split("/")[-1]}: [')
     sys.stdout.flush()
     success = True
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         futures = [executor.submit(download_chunk, i, base_url, temp_dir) 
                   for i in range(10)]
         
