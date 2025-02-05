@@ -1,0 +1,46 @@
+import tkinter as tk
+from tkinter import messagebox
+from tkinter import ttk
+
+CLIENT_VERSION = 'b1'
+INSTALLER_VERSION = 1.1
+
+def main():
+    global window
+    window = tk.Tk()
+    window.title('ATMod Client Installer')
+    center_window(window, 510, 400)
+    window.resizable(False, False)
+    ttk.Separator(window).pack(fill=tk.X)
+    titleLabel = ttk.Label(window, text='欢迎使用 ATMod Client Installer', font=('Arial', 20))
+    titleLabel.place(x=20,y=30)
+    descriptionLabel = ttk.Label(window, text=f'请确认以下信息：\nATMod Client build-{CLIENT_VERSION} \nInstaller build-{INSTALLER_VERSION}', font=('Arial', 10))
+    descriptionLabel.place(x=20,y=100)
+    nextstep = ttk.Button(window, text='下一步', command=lambda: step2())
+    nextstep.place(x=320,y=360)
+    exitBtn = ttk.Button(window, text='退出', command=lambda: exit())
+    exitBtn.place(x=410,y=360)
+    window.mainloop()
+
+def step2():
+    global window2
+    window.destroy()
+    window2 = tk.Tk()
+    window2.title('ATMod Client Installer')
+    center_window(window2, 510, 400)
+    window2.resizable(False, False)
+    ttk.Separator(window2).pack(fill=tk.X)
+    nextstep = ttk.Button(window2, text='下一步', command=lambda: messagebox.showinfo('提示', '这是一个测试版，敬请期待。'))
+    nextstep.place(x=320,y=360)
+    exitBtn = ttk.Button(window2, text='上一步', command=lambda: window2.destroy() | main())
+    exitBtn.place(x=410,y=360)
+    window2.mainloop()
+
+def center_window(root, width, height):
+    screenwidth = root.winfo_screenwidth()
+    screenheight = root.winfo_screenheight()
+    size = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
+    root.geometry(size)
+
+if __name__ == '__main__':
+    main()
