@@ -1,13 +1,15 @@
 import os
 import check
-
 version = 1
 
 def main():
     os.makedirs('game', exist_ok=True)
     os.makedirs('runtime', exist_ok=True)
 
-    check.synchonize()
+    metadata = check.synchonize()
+    if not os.path.exists('local.json'):
+        check.saveMetadata(metadata)
+
     check.update()
 
 

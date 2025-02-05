@@ -1,7 +1,5 @@
-import time
 import requests
 import sys
-import os
 
 def convert_size(size_bytes):
     units = ['B', 'KB', 'MB', 'GB']
@@ -44,7 +42,7 @@ def download_file(url, filename):
                     sys.stdout.write(f"\rDownloaded: {convert_size(downloaded)}    ")
                     sys.stdout.flush()
 
-        print('下载成功！')
+        print('\n补全成功！')
         
     except requests.exceptions.RequestException as e:
-        print(f"\n下载失败：{e}")
+        print(f"\n补全失败：{e}")
