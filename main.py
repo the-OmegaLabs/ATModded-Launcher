@@ -7,7 +7,7 @@ def main():
     os.makedirs('game', exist_ok=True)
     os.makedirs('runtime', exist_ok=True)
 
-    check.synchonize()
+    check.saveMetadata(check.synchonize())
     check.update()
 
 
