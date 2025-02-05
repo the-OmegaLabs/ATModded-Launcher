@@ -24,13 +24,13 @@ def saveMetadata(metadata):
 
 def get(meta, update = False):
     if not os.path.exists(meta['installed'][1:]) or update:
-        print(f'\n开始补全 \'{meta['name']}\'。')
+        print(f'\n开始补全 \'{meta["name"]}\'。')
         if meta['type'] == 'split':
-            return spliting.merge_from_url(f'{meta['url']}{meta['path']}', meta['installed'][1:])
+            return spliting.merge_from_url(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])
         elif meta['type'] == 'subsplit':
             os.makedirs('temp', exist_ok=True)
             for i in range(10):
-                if not spliting.merge_from_url(f'{meta['url']}{meta['path']}/subpart{i}', f'temp/part{i}.enc'):
+                if not spliting.merge_from_url(f'{meta["url"]}{meta["path"]}/subpart{i}', f'temp/part{i}.enc'):
                     return False
 
             spliting.merge_from_local(f'temp', meta['installed'][1:])
@@ -40,7 +40,7 @@ def get(meta, update = False):
             os.removedirs('temp')
 
         elif meta['type'] == 'single':
-            www.download_file(f'{meta['url']}{meta['path']}', meta['installed'][1:])
+            www.download_file(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])
 
 def update():
     print('正在检查版本更新...')
