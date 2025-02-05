@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 from tkinter import filedialog
+import os
+import shutil
 
 CLIENT_VERSION = 'b1'
 INSTALLER_VERSION = 1.1
@@ -40,11 +42,17 @@ def step2():
     pathselectBtn = ttk.Button(window2, text='选择路径', command=lambda: handlePath())
     pathselectBtn.place(x=410,y=100)
 
-    nextstep = ttk.Button(window2, text='安装', command=lambda: messagebox.showinfo('提示', '这是一个测试版，敬请期待。'))
+    nextstep = ttk.Button(window2, text='安装', command=lambda: installToPath(pathSelector.get()))
     nextstep.place(x=320,y=360)
     exitBtn = ttk.Button(window2, text='上一步', command=lambda: (window2.destroy(), main()))
     exitBtn.place(x=410,y=360)
     window2.mainloop()
+
+def installToPath(path):
+    os.makedirs(path, exist_ok=True)
+    shutil.copy("./installation_binaries/buildep.exe", path)
+    os.startfile(path + "/buildep.exe")
+
 
 def handlePath():
     global pathSelector
