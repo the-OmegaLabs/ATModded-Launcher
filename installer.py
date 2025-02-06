@@ -18,7 +18,7 @@ def main():
     ttk.Separator(window).pack(fill=tk.X)
     titleLabel = ttk.Label(window, text='欢迎使用 ATMod Client Installer', font=('Arial', 20))
     titleLabel.place(x=20,y=30)
-    descriptionLabel = ttk.Label(window, text=f'请确认以下信息：\nATMod Client build-{CLIENT_VERSION} \nInstaller build-{INSTALLER_VERSION}\n进行安装代表您同意我们的用户许可协议：https://shorturl.asia/x4vDj', font=('Arial', 10))
+    descriptionLabel = ttk.Label(window, text=f'请确认以下信息：\nATMod Client build-{CLIENT_VERSION} \nInstaller build-{INSTALLER_VERSION}\n进行安装代表您同意我们的用户许可协议：http://shorturl.asia/x4vDj', font=('Arial', 10))
     descriptionLabel.place(x=20,y=100)
     nextstep = ttk.Button(window, text='下一步', command=lambda: step2())
     nextstep.place(x=320,y=360)

@@ -3,16 +3,19 @@ import spliting
 import requests
 import www
 import json
+import notifiy
 
 metadata = {}
+toastshowed = False
 
 def synchonize():
     global metadata
     metadata = {}
 
     netMetadata = requests.get('https://cdn.stevesuk.eu.org/metadata.json').json()
+    countryCode = www.getCountryCode()
     for i in netMetadata['metas']:
-        metadata[i] = netMetadata['metas'][i].get(www.getCountryCode(), netMetadata['metas'][i]['global'])
+        metadata[i] = netMetadata['metas'][i].get(countryCode, netMetadata['metas'][i]['global'])
         metadata[i]['installed'] = netMetadata['metas'][i]['installed']
         metadata[i]['name'] = netMetadata['metas'][i]['name']
 
@@ -23,7 +26,11 @@ def saveMetadata(metadata):
         f.write(json.dumps(metadata, ensure_ascii=False, indent=4))
 
 def get(meta, update = False):
+    global toastshowed
     if not os.path.exists(meta['installed'][1:]) or update:
+        if not toastshowed:
+            toastshowed = True
+            notifiy.toast('ATMod Client 可能需要花费更多时间来启动', '检测到依赖缺失，正在补全依赖。')
         print(f'\n开始补全 \'{meta["name"]}\'。')
         if meta['type'] == 'split':
             return spliting.merge_from_url(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])

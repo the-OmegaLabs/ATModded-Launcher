@@ -6,6 +6,8 @@ import binascii
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+downloaded = 0
+
 def encode_file(path):
     with open(path, 'rb') as f:
         return base64.b64encode(f.read()).decode('utf-8')
@@ -52,6 +54,7 @@ def merge_from_local(parts_dir, output_path):
     return True
 
 def download_chunk(i, base_url, save_dir):
+    global downloaded
     try:
         url = f"{base_url}/part{i}.enc"
         response = requests.get(url, timeout=30)
@@ -60,8 +63,9 @@ def download_chunk(i, base_url, save_dir):
         save_path = os.path.join(save_dir, f'part{i}.enc')
         with open(save_path, 'wb') as f:
             f.write(response.content)
-            
-        sys.stdout.write(f'██')
+        
+        downloaded += 1
+        sys.stdout.write(f'\r正在补全依赖: [{'██' * downloaded}{'  ' * (10 - downloaded)}] {downloaded} / 10')
         sys.stdout.flush()
         return True
     except Exception as e:
@@ -78,14 +82,13 @@ def cleanup(foldername):
     os.removedirs(foldername)
 
 def merge_from_url(base_url, output_path):
+    global downloaded
     timestamp = int(time.time())
+    downloaded = 0
     temp_dir = os.path.join(os.getcwd(), f'download_{timestamp}')
     os.makedirs(temp_dir, exist_ok=True)
-    
-    sys.stdout.write(f'正在补全依赖 {base_url.split("/")[-1]}: [')
-    sys.stdout.flush()
     success = True
-    with ThreadPoolExecutor(max_workers=3) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(download_chunk, i, base_url, temp_dir) 
                   for i in range(10)]
         
@@ -93,7 +96,8 @@ def merge_from_url(base_url, output_path):
             if not future.result():
                 success = False
 
-    print(']')
+    print()
+
     if success:
         merge_from_local(temp_dir, output_path)
         cleanup(temp_dir)

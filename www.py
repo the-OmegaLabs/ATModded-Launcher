@@ -10,13 +10,13 @@ def convert_size(size_bytes):
     return f"{size_bytes:.2f} {units[unit_index]}"
 
 def print_progress(downloaded, total):
-    bar_width = 50 
+    bar_width = 20 
     percent = downloaded / total if total != 0 else 0
     filled = int(bar_width * percent)
-    bar = '█' * filled + '-' * (bar_width - filled)
+    bar = '█' * filled + ' ' * (bar_width - filled)
     downloaded_str = convert_size(downloaded)
     total_str = convert_size(total) if total != 0 else "?"
-    sys.stdout.write(f"\r[{bar}] {percent:.1%}  {downloaded_str} / {total_str}")
+    sys.stdout.write(f"\r正在补全依赖: [{bar}] {percent:.1%}  {downloaded_str} / {total_str}    ")
     sys.stdout.flush()
 
 def getCountryCode():
@@ -33,13 +33,13 @@ def download_file(url, filename):
         downloaded = 0
         
         with open(filename, 'wb') as f:
-            for chunk in response.iter_content(chunk_size=8192):
+            for chunk in response.iter_content(chunk_size=10240):
                 f.write(chunk)
                 downloaded += len(chunk)
                 if total_size != 0:
                     print_progress(downloaded, total_size)
                 else:
-                    sys.stdout.write(f"\rDownloaded: {convert_size(downloaded)}    ")
+                    sys.stdout.write(f"\rDownloaded: {convert_size(downloaded)}")
                     sys.stdout.flush()
 
         print('\n补全成功！')
