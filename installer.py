@@ -10,10 +10,10 @@ CLIENT_VERSION = 'b1'
 INSTALLER_VERSION = 1.1
 INSTALLATION_PATH = 'C:/Program Files/ATMod'
 if platform.system() == "Linux":
-    INSTALLATION_PATH = "/etc/ATGuns"
-DEFAULT_PATH = "C:/Program Files/"
-if platform.system() == "Linux":
-    DEFAULT_PATH = "/etc"
+    INSTALLATION_PATH = "/opt/ATGuns"
+    DEFAULT_PATH = "/opt"
+else:
+    DEFAULT_PATH = "C:/Program Files/"
 
 
 def main():
