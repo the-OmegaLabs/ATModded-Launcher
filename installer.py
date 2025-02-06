@@ -3,11 +3,18 @@ from tkinter import messagebox
 from tkinter import ttk
 from tkinter import filedialog
 import os
+import platform
 import shutil
 
 CLIENT_VERSION = 'b1'
 INSTALLER_VERSION = 1.1
 INSTALLATION_PATH = 'C:/Program Files/ATMod'
+if platform.system() == "Linux":
+    INSTALLATION_PATH = "/etc/ATGuns"
+DEFAULT_PATH = "C:/Program Files/"
+if platform.system() == "Linux":
+    DEFAULT_PATH = "/etc"
+
 
 def main():
     global window
