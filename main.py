@@ -10,9 +10,7 @@ def main():
     startTime = time.time()
 
     metadata = check.synchronize()
-    if not os.path.exists('local.json'):
-        check.saveMetadata(metadata)
-
+    check.saveMetadata(metadata)
     check.update()
 
     launcher = threading.Thread(target=os.system, args=(f'{os.getcwd()}/game/launcher.exe',))

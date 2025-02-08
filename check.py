@@ -29,10 +29,11 @@ def saveMetadata(metadata):
 def get(meta, update = False):
     global toastshowed
     if not os.path.exists(meta['installed'][1:]) or update:
+        print()
         if not toastshowed:
             toastshowed = True
             notify.toast('ATMod Client 可能需要花费更多时间来启动', '检测到新版本已推出，正在下载更新。')
-        print(f'\n开始补全 \'{meta["name"]}\'。')
+        print(f'开始补全 \'{meta["name"]}\'。')
         os.makedirs(f'{"/".join(meta['installed'][1:].split("/")[:-1])}', exist_ok=True)
         try:
             os.remove(f"{meta['original'][1:]}")
@@ -53,7 +54,7 @@ def get(meta, update = False):
             os.removedirs('temp')
 
         elif meta['type'] == 'single':
-            www.download_file(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])
+            www.download_file(f'{meta["url"]}/{meta["path"]}', meta['installed'][1:])
 
 def update():
     print('正在检查版本更新...')
@@ -84,3 +85,4 @@ def update():
     print('正在检查完整性...')
     for i in metadata:
         get(metadata[i])
+        
