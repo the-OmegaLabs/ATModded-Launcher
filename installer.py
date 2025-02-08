@@ -1,3 +1,4 @@
+import sys
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
@@ -7,6 +8,14 @@ import platform
 import shutil
 import ctypes
 import winshell
+
+if getattr(sys, 'frozen', False):
+    app_path = sys._MEIPASS
+else:
+    app_path = os.path.dirname(os.path.abspath(__file__))
+
+INSTALLATION_BINARIES_PATH = os.path.join(app_path, 'installation_binaries')
+
 
 CLIENT_VERSION = 'b1'
 INSTALLER_VERSION = 1.1
@@ -83,11 +92,12 @@ def step2():
 
 def installToPath(path):
 	os.makedirs(path, exist_ok=True)
-	shutil.copy("./installation_binaries/buildep.exe", path)
+	shutil.copy(os.path.join(INSTALLATION_BINARIES_PATH, "buildep.exe"), path)
 	if create_shortcut(path + "/buildep.exe", winshell.desktop() + "/ATMod", "启动ATMod Client"):
 		messagebox.showinfo("ATMod Client Installer", "安装成功")
 	else:
 		messagebox.showerror("ATMod Client Installer", "安装失败，请上报程序维护者")
+	exit()
 
 
 def handlePath():
