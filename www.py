@@ -1,3 +1,4 @@
+import os
 import requests
 import sys
 
@@ -16,7 +17,7 @@ def print_progress(downloaded, total):
     bar = '█' * filled + ' ' * (bar_width - filled)
     downloaded_str = convert_size(downloaded)
     total_str = convert_size(total) if total != 0 else "?"
-    sys.stdout.write(f"\r正在补全依赖: [{bar}] {percent:.1%}  {downloaded_str} / {total_str}    ")
+    sys.stdout.write(f"\r正在补全依赖: {bar}  {percent:.1%}  {downloaded_str} / {total_str}    ")
     sys.stdout.flush()
 
 def getCountryCode():
@@ -36,13 +37,7 @@ def download_file(url, filename):
             for chunk in response.iter_content(chunk_size=10240):
                 f.write(chunk)
                 downloaded += len(chunk)
-                if total_size != 0:
-                    print_progress(downloaded, total_size)
-                else:
-                    sys.stdout.write(f"\rDownloaded: {convert_size(downloaded)}")
-                    sys.stdout.flush()
-
-        print('\n补全成功！')
-        
-    except requests.exceptions.RequestException as e:
-        print(f"\n补全失败：{e}")
+                print_progress(downloaded, total_size)
+    except:
+        os.remove(filename)
+        exit()

@@ -1,6 +1,7 @@
 import platform
 import os
 
+
 system = platform.system()
 
 try:

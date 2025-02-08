@@ -3,20 +3,21 @@ import spliting
 import requests
 import www
 import json
-import notifiy
+import notify
 
 metadata = {}
 toastshowed = False
 
-def synchonize():
+def synchronize():
     global metadata
     metadata = {}
 
-    netMetadata = requests.get('https://cdn.stevesuk.eu.org/metadata.json').json()
+    netMetadata = requests.get('http://127.0.0.1:11451/metadata.json').json()
     countryCode = www.getCountryCode()
     for i in netMetadata['metas']:
         metadata[i] = netMetadata['metas'][i].get(countryCode, netMetadata['metas'][i]['global'])
         metadata[i]['installed'] = netMetadata['metas'][i]['installed']
+        metadata[i]['original'] = netMetadata['metas'][i]['original']
         metadata[i]['name'] = netMetadata['metas'][i]['name']
 
     return metadata
@@ -30,10 +31,15 @@ def get(meta, update = False):
     if not os.path.exists(meta['installed'][1:]) or update:
         if not toastshowed:
             toastshowed = True
-            notifiy.toast('ATMod Client 可能需要花费更多时间来启动', '检测到依赖缺失，正在补全依赖。')
+            notify.toast('ATMod Client 可能需要花费更多时间来启动', '检测到新版本已推出，正在下载更新。')
         print(f'\n开始补全 \'{meta["name"]}\'。')
+        os.makedirs(f'{"/".join(meta['installed'][1:].split("/")[:-1])}', exist_ok=True)
+        try:
+            os.remove(f"{meta['original'][1:]}")
+        except:
+            pass
         if meta['type'] == 'split':
-            return spliting.merge_from_url(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])
+            spliting.merge_from_url(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])
         elif meta['type'] == 'subsplit':
             os.makedirs('temp', exist_ok=True)
             for i in range(10):

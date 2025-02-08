@@ -65,7 +65,7 @@ def download_chunk(i, base_url, save_dir):
             f.write(response.content)
         
         downloaded += 1
-        sys.stdout.write(f'\r正在补全依赖: [{'██' * downloaded}{'  ' * (10 - downloaded)}] {downloaded} / 10')
+        sys.stdout.write(f'\r正在补全依赖: {'██' * downloaded}{'  ' * (10 - downloaded)}  {downloaded} / 10')
         sys.stdout.flush()
         return True
     except Exception as e:
