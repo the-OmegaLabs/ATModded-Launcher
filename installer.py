@@ -10,12 +10,12 @@ import winshell
 
 CLIENT_VERSION = 'b1'
 INSTALLER_VERSION = 1.1
-INSTALLATION_PATH = 'C:/Program Files/ATMod'
+INSTALLATION_PATH = 'D:/ATMod'
 if platform.system() == "Linux":
 	INSTALLATION_PATH = "/opt/ATGuns"
 	DEFAULT_PATH = "/opt"
 else:
-	DEFAULT_PATH = "C:/Program Files/"
+	DEFAULT_PATH = "D:/"
 
 def isAdmin():
 	try:
