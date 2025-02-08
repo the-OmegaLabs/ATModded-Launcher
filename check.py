@@ -12,7 +12,7 @@ def synchronize():
     global metadata
     metadata = {}
 
-    netMetadata = requests.get('http://127.0.0.1:11451/metadata.json').json()
+    netMetadata = requests.get('https://cdn.stevesuk.eu.org/metadata.json').json()
     countryCode = www.getCountryCode()
     for i in netMetadata['metas']:
         metadata[i] = netMetadata['metas'][i].get(countryCode, netMetadata['metas'][i]['global'])
