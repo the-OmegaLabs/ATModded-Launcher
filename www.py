@@ -38,6 +38,9 @@ def download_file(url, filename):
                 f.write(chunk)
                 downloaded += len(chunk)
                 print_progress(downloaded, total_size)
-    except:
-        os.remove(filename)
-        exit()
+    except Exception as f:
+        print(f)
+        try:
+            os.remove(filename)
+        finally:
+            exit()

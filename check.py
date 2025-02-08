@@ -53,7 +53,9 @@ def get(meta, update = False):
             os.removedirs('temp')
 
         elif meta['type'] == 'single':
-            www.download_file(f'{meta["url"]}{meta["path"]}', meta['installed'][1:])
+            www.download_file(f'{meta["url"]}/{meta["path"]}', meta['installed'][1:])
+
+        print()
 
 def update():
     print('正在检查版本更新...')

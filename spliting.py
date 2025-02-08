@@ -96,8 +96,6 @@ def merge_from_url(base_url, output_path):
             if not future.result():
                 success = False
 
-    print()
-
     if success:
         merge_from_local(temp_dir, output_path)
         cleanup(temp_dir)
