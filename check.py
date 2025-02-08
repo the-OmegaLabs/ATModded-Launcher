@@ -34,7 +34,7 @@ def get(meta, update = False):
             toastshowed = True
             notify.toast('ATMod Client 可能需要花费更多时间来启动', '检测到新版本已推出，正在下载更新。')
         print(f'开始补全 \'{meta["name"]}\'。')
-        os.makedirs(f'{"/".join(meta['installed'][1:].split("/")[:-1])}', exist_ok=True)
+        os.makedirs(f'{"/".join(meta["installed"][1:].split("/")[:-1])}', exist_ok=True)
         try:
             os.remove(f"{meta['original'][1:]}")
         except:
