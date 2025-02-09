@@ -43,4 +43,4 @@ def download_file(url, filename):
         try:
             os.remove(filename)
         finally:
-            exit()
+            sys.exit()
