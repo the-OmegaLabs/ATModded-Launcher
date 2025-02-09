@@ -64,7 +64,7 @@ def main():
 	descriptionLabel.place(x=20,y=100)
 	nextstep = ttk.Button(window, text='下一步', command=lambda: step2())
 	nextstep.place(x=320,y=360)
-	exitBtn = ttk.Button(window, text='退出', command=lambda: sys.exit())
+	exitBtn = ttk.Button(window, text='退出', command=lambda: exit())
 	exitBtn.place(x=410,y=360)
 	window.mainloop()
 
@@ -97,7 +97,7 @@ def installToPath(path):
 		messagebox.showinfo("ATMod Client Installer", "安装成功")
 	else:
 		messagebox.showerror("ATMod Client Installer", "安装失败，请上报程序维护者")
-	sys.exit()
+	exit()
 
 
 def handlePath():
@@ -114,6 +114,6 @@ def center_window(root, width, height):
 if __name__ == '__main__':
 	if not isAdmin():
 		messagebox.showerror("ATMod Client Installer", "请以管理员身份运行此安装程序")
-		sys.exit()
+		exit()
 
 	main()
