@@ -3,8 +3,10 @@ import check
 import threading
 import time
 import notify
+from win32api import SetConsoleTitle
 
 version = 1
+SetConsoleTitle(f'ATMod Launcher build-{version} | 日志')
 
 def main():
     startTime = time.time()
@@ -17,7 +19,7 @@ def main():
     launcher.daemon = True
     launcher.start()
 
-    print(f'启动成功，用时 {round(time.time() - startTime, 2)} 秒。')
+    print(f'\n启动成功，用时 {round(time.time() - startTime, 2)} 秒。')
     notify.toast('ATMod Client 启动成功', '您的启动器已更新至最新版本。')
     
 

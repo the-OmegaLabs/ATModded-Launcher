@@ -14,6 +14,7 @@ def synchronize():
 
     netMetadata = requests.get('https://cdn.stevesuk.eu.org/metadata.json').json()
     countryCode = www.getCountryCode()
+    print(f'正在优选下载节点为：{countryCode}')
     for i in netMetadata['metas']:
         metadata[i] = netMetadata['metas'][i].get(countryCode, netMetadata['metas'][i]['global'])
         metadata[i]['installed'] = netMetadata['metas'][i]['installed']
