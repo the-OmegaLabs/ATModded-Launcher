@@ -1,0 +1,2195 @@
+{
+    "core-3.6.4.jar": {
+        "name": "core-3.6.4.jar",
+        "installed": "/game/.minecraft/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar",
+        "original": "/game/.minecraft/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/electronwill/night-config/core/3.6.4/",
+            "path": "core-3.6.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/electronwill/night-config/core/3.6.4/",
+            "path": "core-3.6.4.jar"
+        }
+    },
+    "toml-3.6.4.jar": {
+        "name": "toml-3.6.4.jar",
+        "installed": "/game/.minecraft/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar",
+        "original": "/game/.minecraft/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/electronwill/night-config/toml/3.6.4/",
+            "path": "toml-3.6.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/electronwill/night-config/toml/3.6.4/",
+            "path": "toml-3.6.4.jar"
+        }
+    },
+    "lzma-java-1.3.jar": {
+        "name": "lzma-java-1.3.jar",
+        "installed": "/game/.minecraft/libraries/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar",
+        "original": "/game/.minecraft/libraries/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/github/jponge/lzma-java/1.3/",
+            "path": "lzma-java-1.3.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/github/jponge/lzma-java/1.3/",
+            "path": "lzma-java-1.3.jar"
+        }
+    },
+    "oshi-core-6.2.2.jar": {
+        "name": "oshi-core-6.2.2.jar",
+        "installed": "/game/.minecraft/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar",
+        "original": "/game/.minecraft/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/github/oshi/oshi-core/6.2.2/",
+            "path": "oshi-core-6.2.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/github/oshi/oshi-core/6.2.2/",
+            "path": "oshi-core-6.2.2.jar"
+        }
+    },
+    "jsr305-3.0.2.jar": {
+        "name": "jsr305-3.0.2.jar",
+        "installed": "/game/.minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+        "original": "/game/.minecraft/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/code/findbugs/jsr305/3.0.2/",
+            "path": "jsr305-3.0.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/code/findbugs/jsr305/3.0.2/",
+            "path": "jsr305-3.0.2.jar"
+        }
+    },
+    "gson-2.10.jar": {
+        "name": "gson-2.10.jar",
+        "installed": "/game/.minecraft/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar",
+        "original": "/game/.minecraft/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/code/gson/gson/2.10/",
+            "path": "gson-2.10.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/code/gson/gson/2.10/",
+            "path": "gson-2.10.jar"
+        }
+    },
+    "gson-2.10.1.jar": {
+        "name": "gson-2.10.1.jar",
+        "installed": "/game/.minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "original": "/game/.minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/code/gson/gson/2.10.1/",
+            "path": "gson-2.10.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/code/gson/gson/2.10.1/",
+            "path": "gson-2.10.1.jar"
+        }
+    },
+    "error_prone_annotations-2.1.3.jar": {
+        "name": "error_prone_annotations-2.1.3.jar",
+        "installed": "/game/.minecraft/libraries/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar",
+        "original": "/game/.minecraft/libraries/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/errorprone/error_prone_annotations/2.1.3/",
+            "path": "error_prone_annotations-2.1.3.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/errorprone/error_prone_annotations/2.1.3/",
+            "path": "error_prone_annotations-2.1.3.jar"
+        }
+    },
+    "failureaccess-1.0.1.jar": {
+        "name": "failureaccess-1.0.1.jar",
+        "installed": "/game/.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+        "original": "/game/.minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/guava/failureaccess/1.0.1/",
+            "path": "failureaccess-1.0.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/guava/failureaccess/1.0.1/",
+            "path": "failureaccess-1.0.1.jar"
+        }
+    },
+    "guava-25.1-jre.jar": {
+        "name": "guava-25.1-jre.jar",
+        "installed": "/game/.minecraft/libraries/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar",
+        "original": "/game/.minecraft/libraries/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/guava/guava/25.1-jre/",
+            "path": "guava-25.1-jre.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/guava/guava/25.1-jre/",
+            "path": "guava-25.1-jre.jar"
+        }
+    },
+    "guava-31.1-jre.jar": {
+        "name": "guava-31.1-jre.jar",
+        "installed": "/game/.minecraft/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+        "original": "/game/.minecraft/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/guava/guava/31.1-jre/",
+            "path": "guava-31.1-jre.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/guava/guava/31.1-jre/",
+            "path": "guava-31.1-jre.jar"
+        }
+    },
+    "j2objc-annotations-1.1.jar": {
+        "name": "j2objc-annotations-1.1.jar",
+        "installed": "/game/.minecraft/libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+        "original": "/game/.minecraft/libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/google/j2objc/j2objc-annotations/1.1/",
+            "path": "j2objc-annotations-1.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/google/j2objc/j2objc-annotations/1.1/",
+            "path": "j2objc-annotations-1.1.jar"
+        }
+    },
+    "icu4j-71.1.jar": {
+        "name": "icu4j-71.1.jar",
+        "installed": "/game/.minecraft/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar",
+        "original": "/game/.minecraft/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/ibm/icu/icu4j/71.1/",
+            "path": "icu4j-71.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/ibm/icu/icu4j/71.1/",
+            "path": "icu4j-71.1.jar"
+        }
+    },
+    "authlib-4.0.43.jar": {
+        "name": "authlib-4.0.43.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/authlib/4.0.43/",
+            "path": "authlib-4.0.43.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/authlib/4.0.43/",
+            "path": "authlib-4.0.43.jar"
+        }
+    },
+    "blocklist-1.0.10.jar": {
+        "name": "blocklist-1.0.10.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/blocklist/1.0.10/",
+            "path": "blocklist-1.0.10.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/blocklist/1.0.10/",
+            "path": "blocklist-1.0.10.jar"
+        }
+    },
+    "brigadier-1.1.8.jar": {
+        "name": "brigadier-1.1.8.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/brigadier/1.1.8/",
+            "path": "brigadier-1.1.8.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/brigadier/1.1.8/",
+            "path": "brigadier-1.1.8.jar"
+        }
+    },
+    "datafixerupper-6.0.8.jar": {
+        "name": "datafixerupper-6.0.8.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/datafixerupper/6.0.8/",
+            "path": "datafixerupper-6.0.8.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/datafixerupper/6.0.8/",
+            "path": "datafixerupper-6.0.8.jar"
+        }
+    },
+    "logging-1.1.1.jar": {
+        "name": "logging-1.1.1.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/logging/1.1.1/",
+            "path": "logging-1.1.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/logging/1.1.1/",
+            "path": "logging-1.1.1.jar"
+        }
+    },
+    "patchy-2.2.10.jar": {
+        "name": "patchy-2.2.10.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/patchy/2.2.10/",
+            "path": "patchy-2.2.10.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/patchy/2.2.10/",
+            "path": "patchy-2.2.10.jar"
+        }
+    },
+    "text2speech-1.17.9.jar": {
+        "name": "text2speech-1.17.9.jar",
+        "installed": "/game/.minecraft/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar",
+        "original": "/game/.minecraft/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/mojang/text2speech/1.17.9/",
+            "path": "text2speech-1.17.9.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/mojang/text2speech/1.17.9/",
+            "path": "text2speech-1.17.9.jar"
+        }
+    },
+    "javaxdelta-2.0.1.jar": {
+        "name": "javaxdelta-2.0.1.jar",
+        "installed": "/game/.minecraft/libraries/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar",
+        "original": "/game/.minecraft/libraries/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/com/nothome/javaxdelta/2.0.1/",
+            "path": "javaxdelta-2.0.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/com/nothome/javaxdelta/2.0.1/",
+            "path": "javaxdelta-2.0.1.jar"
+        }
+    },
+    "commons-codec-1.15.jar": {
+        "name": "commons-codec-1.15.jar",
+        "installed": "/game/.minecraft/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+        "original": "/game/.minecraft/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/commons-codec/commons-codec/1.15/",
+            "path": "commons-codec-1.15.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/commons-codec/commons-codec/1.15/",
+            "path": "commons-codec-1.15.jar"
+        }
+    },
+    "commons-io-2.11.0.jar": {
+        "name": "commons-io-2.11.0.jar",
+        "installed": "/game/.minecraft/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+        "original": "/game/.minecraft/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/commons-io/commons-io/2.11.0/",
+            "path": "commons-io-2.11.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/commons-io/commons-io/2.11.0/",
+            "path": "commons-io-2.11.0.jar"
+        }
+    },
+    "commons-io-2.4.jar": {
+        "name": "commons-io-2.4.jar",
+        "installed": "/game/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar",
+        "original": "/game/.minecraft/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/commons-io/commons-io/2.4/",
+            "path": "commons-io-2.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/commons-io/commons-io/2.4/",
+            "path": "commons-io-2.4.jar"
+        }
+    },
+    "commons-logging-1.2.jar": {
+        "name": "commons-logging-1.2.jar",
+        "installed": "/game/.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+        "original": "/game/.minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/commons-logging/commons-logging/1.2/",
+            "path": "commons-logging-1.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/commons-logging/commons-logging/1.2/",
+            "path": "commons-logging-1.2.jar"
+        }
+    },
+    "bootstraplauncher-1.1.2.jar": {
+        "name": "bootstraplauncher-1.1.2.jar",
+        "installed": "/game/.minecraft/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar",
+        "original": "/game/.minecraft/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/cpw/mods/bootstraplauncher/1.1.2/",
+            "path": "bootstraplauncher-1.1.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/cpw/mods/bootstraplauncher/1.1.2/",
+            "path": "bootstraplauncher-1.1.2.jar"
+        }
+    },
+    "modlauncher-10.0.9.jar": {
+        "name": "modlauncher-10.0.9.jar",
+        "installed": "/game/.minecraft/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar",
+        "original": "/game/.minecraft/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/cpw/mods/modlauncher/10.0.9/",
+            "path": "modlauncher-10.0.9.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/cpw/mods/modlauncher/10.0.9/",
+            "path": "modlauncher-10.0.9.jar"
+        }
+    },
+    "securejarhandler-2.1.10.jar": {
+        "name": "securejarhandler-2.1.10.jar",
+        "installed": "/game/.minecraft/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar",
+        "original": "/game/.minecraft/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/cpw/mods/securejarhandler/2.1.10/",
+            "path": "securejarhandler-2.1.10.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/cpw/mods/securejarhandler/2.1.10/",
+            "path": "securejarhandler-2.1.10.jar"
+        }
+    },
+    "fastcsv-2.2.2.jar": {
+        "name": "fastcsv-2.2.2.jar",
+        "installed": "/game/.minecraft/libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar",
+        "original": "/game/.minecraft/libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/de/siegmar/fastcsv/2.2.2/",
+            "path": "fastcsv-2.2.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/de/siegmar/fastcsv/2.2.2/",
+            "path": "fastcsv-2.2.2.jar"
+        }
+    },
+    "netty-buffer-4.1.82.Final.jar": {
+        "name": "netty-buffer-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-buffer/4.1.82.Final/",
+            "path": "netty-buffer-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-buffer/4.1.82.Final/",
+            "path": "netty-buffer-4.1.82.Final.jar"
+        }
+    },
+    "netty-codec-4.1.82.Final.jar": {
+        "name": "netty-codec-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-codec/4.1.82.Final/",
+            "path": "netty-codec-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-codec/4.1.82.Final/",
+            "path": "netty-codec-4.1.82.Final.jar"
+        }
+    },
+    "netty-common-4.1.82.Final.jar": {
+        "name": "netty-common-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-common/4.1.82.Final/",
+            "path": "netty-common-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-common/4.1.82.Final/",
+            "path": "netty-common-4.1.82.Final.jar"
+        }
+    },
+    "netty-handler-4.1.82.Final.jar": {
+        "name": "netty-handler-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-handler/4.1.82.Final/",
+            "path": "netty-handler-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-handler/4.1.82.Final/",
+            "path": "netty-handler-4.1.82.Final.jar"
+        }
+    },
+    "netty-resolver-4.1.82.Final.jar": {
+        "name": "netty-resolver-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-resolver/4.1.82.Final/",
+            "path": "netty-resolver-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-resolver/4.1.82.Final/",
+            "path": "netty-resolver-4.1.82.Final.jar"
+        }
+    },
+    "netty-transport-4.1.82.Final.jar": {
+        "name": "netty-transport-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-transport/4.1.82.Final/",
+            "path": "netty-transport-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-transport/4.1.82.Final/",
+            "path": "netty-transport-4.1.82.Final.jar"
+        }
+    },
+    "netty-transport-classes-epoll-4.1.82.Final.jar": {
+        "name": "netty-transport-classes-epoll-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/",
+            "path": "netty-transport-classes-epoll-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/",
+            "path": "netty-transport-classes-epoll-4.1.82.Final.jar"
+        }
+    },
+    "netty-transport-native-unix-common-4.1.82.Final.jar": {
+        "name": "netty-transport-native-unix-common-4.1.82.Final.jar",
+        "installed": "/game/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar",
+        "original": "/game/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/",
+            "path": "netty-transport-native-unix-common-4.1.82.Final.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/",
+            "path": "netty-transport-native-unix-common-4.1.82.Final.jar"
+        }
+    },
+    "fastutil-8.5.9.jar": {
+        "name": "fastutil-8.5.9.jar",
+        "installed": "/game/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar",
+        "original": "/game/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/it/unimi/dsi/fastutil/8.5.9/",
+            "path": "fastutil-8.5.9.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/it/unimi/dsi/fastutil/8.5.9/",
+            "path": "fastutil-8.5.9.jar"
+        }
+    },
+    "jna-5.12.1.jar": {
+        "name": "jna-5.12.1.jar",
+        "installed": "/game/.minecraft/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar",
+        "original": "/game/.minecraft/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/java/dev/jna/jna/5.12.1/",
+            "path": "jna-5.12.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/java/dev/jna/jna/5.12.1/",
+            "path": "jna-5.12.1.jar"
+        }
+    },
+    "jna-platform-5.12.1.jar": {
+        "name": "jna-platform-5.12.1.jar",
+        "installed": "/game/.minecraft/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar",
+        "original": "/game/.minecraft/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/java/dev/jna/jna-platform/5.12.1/",
+            "path": "jna-platform-5.12.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/java/dev/jna/jna-platform/5.12.1/",
+            "path": "jna-platform-5.12.1.jar"
+        }
+    },
+    "typetools-0.6.3.jar": {
+        "name": "typetools-0.6.3.jar",
+        "installed": "/game/.minecraft/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
+        "original": "/game/.minecraft/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/jodah/typetools/0.6.3/",
+            "path": "typetools-0.6.3.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/jodah/typetools/0.6.3/",
+            "path": "typetools-0.6.3.jar"
+        }
+    },
+    "client-1.20.1-20230612.114412-extra.jar": {
+        "name": "client-1.20.1-20230612.114412-extra.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar",
+        "original": "/game/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraft/client/1.20.1-20230612.114412/",
+            "path": "client-1.20.1-20230612.114412-extra.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraft/client/1.20.1-20230612.114412/",
+            "path": "client-1.20.1-20230612.114412-extra.jar"
+        }
+    },
+    "client-1.20.1-20230612.114412-slim.jar": {
+        "name": "client-1.20.1-20230612.114412-slim.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar",
+        "original": "/game/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraft/client/1.20.1-20230612.114412/",
+            "path": "client-1.20.1-20230612.114412-slim.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraft/client/1.20.1-20230612.114412/",
+            "path": "client-1.20.1-20230612.114412-slim.jar"
+        }
+    },
+    "client-1.20.1-20230612.114412-srg.jar": {
+        "name": "client-1.20.1-20230612.114412-srg.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar",
+        "original": "/game/.minecraft/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraft/client/1.20.1-20230612.114412/",
+            "path": "client-1.20.1-20230612.114412-srg.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraft/client/1.20.1-20230612.114412/",
+            "path": "client-1.20.1-20230612.114412-srg.jar"
+        }
+    },
+    "accesstransformers-8.0.4.jar": {
+        "name": "accesstransformers-8.0.4.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/accesstransformers/8.0.4/",
+            "path": "accesstransformers-8.0.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/accesstransformers/8.0.4/",
+            "path": "accesstransformers-8.0.4.jar"
+        }
+    },
+    "binarypatcher-1.1.1.jar": {
+        "name": "binarypatcher-1.1.1.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/binarypatcher/1.1.1/",
+            "path": "binarypatcher-1.1.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/binarypatcher/1.1.1/",
+            "path": "binarypatcher-1.1.1.jar"
+        }
+    },
+    "coremods-5.2.4.jar": {
+        "name": "coremods-5.2.4.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/coremods/5.2.4/",
+            "path": "coremods-5.2.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/coremods/5.2.4/",
+            "path": "coremods-5.2.4.jar"
+        }
+    },
+    "eventbus-6.0.5.jar": {
+        "name": "eventbus-6.0.5.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/eventbus/6.0.5/",
+            "path": "eventbus-6.0.5.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/eventbus/6.0.5/",
+            "path": "eventbus-6.0.5.jar"
+        }
+    },
+    "fmlcore-1.20.1-47.3.27.jar": {
+        "name": "fmlcore-1.20.1-47.3.27.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.27/fmlcore-1.20.1-47.3.27.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.27/fmlcore-1.20.1-47.3.27.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.27/",
+            "path": "fmlcore-1.20.1-47.3.27.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.27/",
+            "path": "fmlcore-1.20.1-47.3.27.jar"
+        }
+    },
+    "fmlearlydisplay-1.20.1-47.3.27.jar": {
+        "name": "fmlearlydisplay-1.20.1-47.3.27.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.27/fmlearlydisplay-1.20.1-47.3.27.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.27/fmlearlydisplay-1.20.1-47.3.27.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.27/",
+            "path": "fmlearlydisplay-1.20.1-47.3.27.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.27/",
+            "path": "fmlearlydisplay-1.20.1-47.3.27.jar"
+        }
+    },
+    "fmlloader-1.20.1-47.3.27.jar": {
+        "name": "fmlloader-1.20.1-47.3.27.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/fmlloader/1.20.1-47.3.27/fmlloader-1.20.1-47.3.27.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/fmlloader/1.20.1-47.3.27/fmlloader-1.20.1-47.3.27.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/fmlloader/1.20.1-47.3.27/",
+            "path": "fmlloader-1.20.1-47.3.27.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/fmlloader/1.20.1-47.3.27/",
+            "path": "fmlloader-1.20.1-47.3.27.jar"
+        }
+    },
+    "forge-1.20.1-47.3.27-client.jar": {
+        "name": "forge-1.20.1-47.3.27-client.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.27/forge-1.20.1-47.3.27-client.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.27/forge-1.20.1-47.3.27-client.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/forge/1.20.1-47.3.27/",
+            "path": "forge-1.20.1-47.3.27-client.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/forge/1.20.1-47.3.27/",
+            "path": "forge-1.20.1-47.3.27-client.jar"
+        }
+    },
+    "forge-1.20.1-47.3.27-universal.jar": {
+        "name": "forge-1.20.1-47.3.27-universal.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.27/forge-1.20.1-47.3.27-universal.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.27/forge-1.20.1-47.3.27-universal.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/forge/1.20.1-47.3.27/",
+            "path": "forge-1.20.1-47.3.27-universal.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/forge/1.20.1-47.3.27/",
+            "path": "forge-1.20.1-47.3.27-universal.jar"
+        }
+    },
+    "ForgeAutoRenamingTool-0.1.22-all.jar": {
+        "name": "ForgeAutoRenamingTool-0.1.22-all.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/",
+            "path": "ForgeAutoRenamingTool-0.1.22-all.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/",
+            "path": "ForgeAutoRenamingTool-0.1.22-all.jar"
+        }
+    },
+    "forgespi-7.0.1.jar": {
+        "name": "forgespi-7.0.1.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/forgespi/7.0.1/",
+            "path": "forgespi-7.0.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/forgespi/7.0.1/",
+            "path": "forgespi-7.0.1.jar"
+        }
+    },
+    "installertools-1.4.1.jar": {
+        "name": "installertools-1.4.1.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/installertools/1.4.1/",
+            "path": "installertools-1.4.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/installertools/1.4.1/",
+            "path": "installertools-1.4.1.jar"
+        }
+    },
+    "JarJarFileSystems-0.3.19.jar": {
+        "name": "JarJarFileSystems-0.3.19.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/",
+            "path": "JarJarFileSystems-0.3.19.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/",
+            "path": "JarJarFileSystems-0.3.19.jar"
+        }
+    },
+    "JarJarMetadata-0.3.19.jar": {
+        "name": "JarJarMetadata-0.3.19.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/JarJarMetadata/0.3.19/",
+            "path": "JarJarMetadata-0.3.19.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/JarJarMetadata/0.3.19/",
+            "path": "JarJarMetadata-0.3.19.jar"
+        }
+    },
+    "JarJarSelector-0.3.19.jar": {
+        "name": "JarJarSelector-0.3.19.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/JarJarSelector/0.3.19/",
+            "path": "JarJarSelector-0.3.19.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/JarJarSelector/0.3.19/",
+            "path": "JarJarSelector-0.3.19.jar"
+        }
+    },
+    "jarsplitter-1.1.4.jar": {
+        "name": "jarsplitter-1.1.4.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/jarsplitter/1.1.4/jarsplitter-1.1.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/jarsplitter/1.1.4/",
+            "path": "jarsplitter-1.1.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/jarsplitter/1.1.4/",
+            "path": "jarsplitter-1.1.4.jar"
+        }
+    },
+    "javafmllanguage-1.20.1-47.3.27.jar": {
+        "name": "javafmllanguage-1.20.1-47.3.27.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.27/javafmllanguage-1.20.1-47.3.27.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.27/javafmllanguage-1.20.1-47.3.27.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.27/",
+            "path": "javafmllanguage-1.20.1-47.3.27.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.27/",
+            "path": "javafmllanguage-1.20.1-47.3.27.jar"
+        }
+    },
+    "lowcodelanguage-1.20.1-47.3.27.jar": {
+        "name": "lowcodelanguage-1.20.1-47.3.27.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.27/lowcodelanguage-1.20.1-47.3.27.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.27/lowcodelanguage-1.20.1-47.3.27.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.27/",
+            "path": "lowcodelanguage-1.20.1-47.3.27.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.27/",
+            "path": "lowcodelanguage-1.20.1-47.3.27.jar"
+        }
+    },
+    "mclanguage-1.20.1-47.3.27.jar": {
+        "name": "mclanguage-1.20.1-47.3.27.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.27/mclanguage-1.20.1-47.3.27.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.27/mclanguage-1.20.1-47.3.27.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.27/",
+            "path": "mclanguage-1.20.1-47.3.27.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.27/",
+            "path": "mclanguage-1.20.1-47.3.27.jar"
+        }
+    },
+    "mergetool-1.1.5-api.jar": {
+        "name": "mergetool-1.1.5-api.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/mergetool/1.1.5/",
+            "path": "mergetool-1.1.5-api.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/mergetool/1.1.5/",
+            "path": "mergetool-1.1.5-api.jar"
+        }
+    },
+    "srgutils-0.4.3.jar": {
+        "name": "srgutils-0.4.3.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/srgutils/0.4.3/srgutils-0.4.3.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/srgutils/0.4.3/",
+            "path": "srgutils-0.4.3.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/srgutils/0.4.3/",
+            "path": "srgutils-0.4.3.jar"
+        }
+    },
+    "srgutils-0.4.9.jar": {
+        "name": "srgutils-0.4.9.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/srgutils/0.4.9/",
+            "path": "srgutils-0.4.9.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/srgutils/0.4.9/",
+            "path": "srgutils-0.4.9.jar"
+        }
+    },
+    "srgutils-0.5.6.jar": {
+        "name": "srgutils-0.5.6.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/srgutils/0.5.6/",
+            "path": "srgutils-0.5.6.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/srgutils/0.5.6/",
+            "path": "srgutils-0.5.6.jar"
+        }
+    },
+    "unsafe-0.2.0.jar": {
+        "name": "unsafe-0.2.0.jar",
+        "installed": "/game/.minecraft/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar",
+        "original": "/game/.minecraft/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecraftforge/unsafe/0.2.0/",
+            "path": "unsafe-0.2.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecraftforge/unsafe/0.2.0/",
+            "path": "unsafe-0.2.0.jar"
+        }
+    },
+    "terminalconsoleappender-1.2.0.jar": {
+        "name": "terminalconsoleappender-1.2.0.jar",
+        "installed": "/game/.minecraft/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar",
+        "original": "/game/.minecraft/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/minecrell/terminalconsoleappender/1.2.0/",
+            "path": "terminalconsoleappender-1.2.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/minecrell/terminalconsoleappender/1.2.0/",
+            "path": "terminalconsoleappender-1.2.0.jar"
+        }
+    },
+    "jopt-simple-5.0.4.jar": {
+        "name": "jopt-simple-5.0.4.jar",
+        "installed": "/game/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+        "original": "/game/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/",
+            "path": "jopt-simple-5.0.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/",
+            "path": "jopt-simple-5.0.4.jar"
+        }
+    },
+    "jopt-simple-6.0-alpha-3.jar": {
+        "name": "jopt-simple-6.0-alpha-3.jar",
+        "installed": "/game/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar",
+        "original": "/game/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/",
+            "path": "jopt-simple-6.0-alpha-3.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/",
+            "path": "jopt-simple-6.0-alpha-3.jar"
+        }
+    },
+    "antlr4-runtime-4.9.1.jar": {
+        "name": "antlr4-runtime-4.9.1.jar",
+        "installed": "/game/.minecraft/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar",
+        "original": "/game/.minecraft/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/antlr/antlr4-runtime/4.9.1/",
+            "path": "antlr4-runtime-4.9.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/antlr/antlr4-runtime/4.9.1/",
+            "path": "antlr4-runtime-4.9.1.jar"
+        }
+    },
+    "commons-compress-1.21.jar": {
+        "name": "commons-compress-1.21.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+        "original": "/game/.minecraft/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/commons/commons-compress/1.21/",
+            "path": "commons-compress-1.21.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/commons/commons-compress/1.21/",
+            "path": "commons-compress-1.21.jar"
+        }
+    },
+    "commons-lang3-3.12.0.jar": {
+        "name": "commons-lang3-3.12.0.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+        "original": "/game/.minecraft/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/commons/commons-lang3/3.12.0/",
+            "path": "commons-lang3-3.12.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/commons/commons-lang3/3.12.0/",
+            "path": "commons-lang3-3.12.0.jar"
+        }
+    },
+    "httpclient-4.5.13.jar": {
+        "name": "httpclient-4.5.13.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+        "original": "/game/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/httpcomponents/httpclient/4.5.13/",
+            "path": "httpclient-4.5.13.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/httpcomponents/httpclient/4.5.13/",
+            "path": "httpclient-4.5.13.jar"
+        }
+    },
+    "httpcore-4.4.15.jar": {
+        "name": "httpcore-4.4.15.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar",
+        "original": "/game/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/httpcomponents/httpcore/4.4.15/",
+            "path": "httpcore-4.4.15.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/httpcomponents/httpcore/4.4.15/",
+            "path": "httpcore-4.4.15.jar"
+        }
+    },
+    "log4j-api-2.19.0.jar": {
+        "name": "log4j-api-2.19.0.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar",
+        "original": "/game/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/logging/log4j/log4j-api/2.19.0/",
+            "path": "log4j-api-2.19.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/logging/log4j/log4j-api/2.19.0/",
+            "path": "log4j-api-2.19.0.jar"
+        }
+    },
+    "log4j-core-2.19.0.jar": {
+        "name": "log4j-core-2.19.0.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar",
+        "original": "/game/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/logging/log4j/log4j-core/2.19.0/",
+            "path": "log4j-core-2.19.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/logging/log4j/log4j-core/2.19.0/",
+            "path": "log4j-core-2.19.0.jar"
+        }
+    },
+    "log4j-slf4j2-impl-2.19.0.jar": {
+        "name": "log4j-slf4j2-impl-2.19.0.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar",
+        "original": "/game/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/",
+            "path": "log4j-slf4j2-impl-2.19.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/",
+            "path": "log4j-slf4j2-impl-2.19.0.jar"
+        }
+    },
+    "maven-artifact-3.8.5.jar": {
+        "name": "maven-artifact-3.8.5.jar",
+        "installed": "/game/.minecraft/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar",
+        "original": "/game/.minecraft/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/apache/maven/maven-artifact/3.8.5/",
+            "path": "maven-artifact-3.8.5.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/apache/maven/maven-artifact/3.8.5/",
+            "path": "maven-artifact-3.8.5.jar"
+        }
+    },
+    "checker-qual-2.0.0.jar": {
+        "name": "checker-qual-2.0.0.jar",
+        "installed": "/game/.minecraft/libraries/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar",
+        "original": "/game/.minecraft/libraries/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/checkerframework/checker-qual/2.0.0/",
+            "path": "checker-qual-2.0.0.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/checkerframework/checker-qual/2.0.0/",
+            "path": "checker-qual-2.0.0.jar"
+        }
+    },
+    "animal-sniffer-annotations-1.14.jar": {
+        "name": "animal-sniffer-annotations-1.14.jar",
+        "installed": "/game/.minecraft/libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar",
+        "original": "/game/.minecraft/libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/",
+            "path": "animal-sniffer-annotations-1.14.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/",
+            "path": "animal-sniffer-annotations-1.14.jar"
+        }
+    },
+    "jline-reader-3.12.1.jar": {
+        "name": "jline-reader-3.12.1.jar",
+        "installed": "/game/.minecraft/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar",
+        "original": "/game/.minecraft/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/jline/jline-reader/3.12.1/",
+            "path": "jline-reader-3.12.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/jline/jline-reader/3.12.1/",
+            "path": "jline-reader-3.12.1.jar"
+        }
+    },
+    "jline-terminal-3.12.1.jar": {
+        "name": "jline-terminal-3.12.1.jar",
+        "installed": "/game/.minecraft/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar",
+        "original": "/game/.minecraft/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/jline/jline-terminal/3.12.1/",
+            "path": "jline-terminal-3.12.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/jline/jline-terminal/3.12.1/",
+            "path": "jline-terminal-3.12.1.jar"
+        }
+    },
+    "joml-1.10.5.jar": {
+        "name": "joml-1.10.5.jar",
+        "installed": "/game/.minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar",
+        "original": "/game/.minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/joml/joml/1.10.5/",
+            "path": "joml-1.10.5.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/joml/joml/1.10.5/",
+            "path": "joml-1.10.5.jar"
+        }
+    },
+    "lwjgl-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-3.3.1.jar": {
+        "name": "lwjgl-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl/3.3.1/",
+            "path": "lwjgl-3.3.1.jar"
+        }
+    },
+    "lwjgl-glfw-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-glfw-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-glfw-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-glfw-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-glfw-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-glfw-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-glfw-3.3.1.jar": {
+        "name": "lwjgl-glfw-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-glfw/3.3.1/",
+            "path": "lwjgl-glfw-3.3.1.jar"
+        }
+    },
+    "lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-jemalloc-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-jemalloc-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-jemalloc-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-jemalloc-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-jemalloc-3.3.1.jar": {
+        "name": "lwjgl-jemalloc-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/",
+            "path": "lwjgl-jemalloc-3.3.1.jar"
+        }
+    },
+    "lwjgl-openal-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-openal-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-openal-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-openal-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-openal-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-openal-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-openal-3.3.1.jar": {
+        "name": "lwjgl-openal-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-openal/3.3.1/",
+            "path": "lwjgl-openal-3.3.1.jar"
+        }
+    },
+    "lwjgl-opengl-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-opengl-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-opengl-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-opengl-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-opengl-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-opengl-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-opengl-3.3.1.jar": {
+        "name": "lwjgl-opengl-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-opengl/3.3.1/",
+            "path": "lwjgl-opengl-3.3.1.jar"
+        }
+    },
+    "lwjgl-stb-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-stb-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-stb-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-stb-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-stb-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-stb-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-stb-3.3.1.jar": {
+        "name": "lwjgl-stb-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-stb/3.3.1/",
+            "path": "lwjgl-stb-3.3.1.jar"
+        }
+    },
+    "lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar": {
+        "name": "lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar"
+        }
+    },
+    "lwjgl-tinyfd-3.3.1-natives-windows-x86.jar": {
+        "name": "lwjgl-tinyfd-3.3.1-natives-windows-x86.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1-natives-windows-x86.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1-natives-windows-x86.jar"
+        }
+    },
+    "lwjgl-tinyfd-3.3.1-natives-windows.jar": {
+        "name": "lwjgl-tinyfd-3.3.1-natives-windows.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-windows.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1-natives-windows.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1-natives-windows.jar"
+        }
+    },
+    "lwjgl-tinyfd-3.3.1.jar": {
+        "name": "lwjgl-tinyfd-3.3.1.jar",
+        "installed": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar",
+        "original": "/game/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/",
+            "path": "lwjgl-tinyfd-3.3.1.jar"
+        }
+    },
+    "nashorn-core-15.4.jar": {
+        "name": "nashorn-core-15.4.jar",
+        "installed": "/game/.minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar",
+        "original": "/game/.minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/openjdk/nashorn/nashorn-core/15.4/",
+            "path": "nashorn-core-15.4.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/openjdk/nashorn/nashorn-core/15.4/",
+            "path": "nashorn-core-15.4.jar"
+        }
+    },
+    "asm-9.2.jar": {
+        "name": "asm-9.2.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm/9.2/asm-9.2.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm/9.2/asm-9.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm/9.2/",
+            "path": "asm-9.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm/9.2/",
+            "path": "asm-9.2.jar"
+        }
+    },
+    "asm-9.6.jar": {
+        "name": "asm-9.6.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm/9.6/asm-9.6.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm/9.6/",
+            "path": "asm-9.6.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm/9.6/",
+            "path": "asm-9.6.jar"
+        }
+    },
+    "asm-9.7.1.jar": {
+        "name": "asm-9.7.1.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm/9.7.1/",
+            "path": "asm-9.7.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm/9.7.1/",
+            "path": "asm-9.7.1.jar"
+        }
+    },
+    "asm-analysis-9.2.jar": {
+        "name": "asm-analysis-9.2.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-analysis/9.2/",
+            "path": "asm-analysis-9.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-analysis/9.2/",
+            "path": "asm-analysis-9.2.jar"
+        }
+    },
+    "asm-analysis-9.7.1.jar": {
+        "name": "asm-analysis-9.7.1.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-analysis/9.7.1/",
+            "path": "asm-analysis-9.7.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-analysis/9.7.1/",
+            "path": "asm-analysis-9.7.1.jar"
+        }
+    },
+    "asm-commons-9.2.jar": {
+        "name": "asm-commons-9.2.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-commons/9.2/",
+            "path": "asm-commons-9.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-commons/9.2/",
+            "path": "asm-commons-9.2.jar"
+        }
+    },
+    "asm-commons-9.6.jar": {
+        "name": "asm-commons-9.6.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-commons/9.6/",
+            "path": "asm-commons-9.6.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-commons/9.6/",
+            "path": "asm-commons-9.6.jar"
+        }
+    },
+    "asm-commons-9.7.1.jar": {
+        "name": "asm-commons-9.7.1.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-commons/9.7.1/",
+            "path": "asm-commons-9.7.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-commons/9.7.1/",
+            "path": "asm-commons-9.7.1.jar"
+        }
+    },
+    "asm-tree-9.2.jar": {
+        "name": "asm-tree-9.2.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-tree/9.2/",
+            "path": "asm-tree-9.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-tree/9.2/",
+            "path": "asm-tree-9.2.jar"
+        }
+    },
+    "asm-tree-9.6.jar": {
+        "name": "asm-tree-9.6.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-tree/9.6/",
+            "path": "asm-tree-9.6.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-tree/9.6/",
+            "path": "asm-tree-9.6.jar"
+        }
+    },
+    "asm-tree-9.7.1.jar": {
+        "name": "asm-tree-9.7.1.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-tree/9.7.1/",
+            "path": "asm-tree-9.7.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-tree/9.7.1/",
+            "path": "asm-tree-9.7.1.jar"
+        }
+    },
+    "asm-util-9.7.1.jar": {
+        "name": "asm-util-9.7.1.jar",
+        "installed": "/game/.minecraft/libraries/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar",
+        "original": "/game/.minecraft/libraries/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/ow2/asm/asm-util/9.7.1/",
+            "path": "asm-util-9.7.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/ow2/asm/asm-util/9.7.1/",
+            "path": "asm-util-9.7.1.jar"
+        }
+    },
+    "slf4j-api-2.0.1.jar": {
+        "name": "slf4j-api-2.0.1.jar",
+        "installed": "/game/.minecraft/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar",
+        "original": "/game/.minecraft/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/slf4j/slf4j-api/2.0.1/",
+            "path": "slf4j-api-2.0.1.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/slf4j/slf4j-api/2.0.1/",
+            "path": "slf4j-api-2.0.1.jar"
+        }
+    },
+    "mixin-0.8.5.jar": {
+        "name": "mixin-0.8.5.jar",
+        "installed": "/game/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+        "original": "/game/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/org/spongepowered/mixin/0.8.5/",
+            "path": "mixin-0.8.5.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/org/spongepowered/mixin/0.8.5/",
+            "path": "mixin-0.8.5.jar"
+        }
+    },
+    "trove-1.0.2.jar": {
+        "name": "trove-1.0.2.jar",
+        "installed": "/game/.minecraft/libraries/trove/trove/1.0.2/trove-1.0.2.jar",
+        "original": "/game/.minecraft/libraries/trove/trove/1.0.2/trove-1.0.2.jar",
+        "global": {
+            "version": "1.0",
+            "type": "single",
+            "url": "https://cdn.stevesuk.eu.org/libraries/trove/trove/1.0.2/",
+            "path": "trove-1.0.2.jar"
+        },
+        "CN": {
+            "version": "1.0",
+            "type": "single",
+            "url": "http://47.108.78.18:12337/at-cdn/libraries/trove/trove/1.0.2/",
+            "path": "trove-1.0.2.jar"
+        }
+    }
+}
