@@ -1,50 +1,58 @@
 import os
-import sys
-
+import zipfile
 import check
 import threading
 import time
 import notify
+import platform
 from win32api import SetConsoleTitle
 
-version = 1
-SetConsoleTitle(f'ATMod Launcher build-{version} | 日志')
+version = 2
+SetConsoleTitle(f'ATMod Launcher build-{version} | 日志界面')
+launchdir = os.getcwd()
 
-class Logger(object):
-    def __init__(self, filename='log.log', stream=sys.stdout):
-        self.terminal = stream
-        self.log = open(filename, 'a')
+def launch():
+    system = platform.system()
 
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-        self.terminal.flush()  # 不启动缓冲,实时输出
-        self.log.flush()
-
-    def flush(self):
-        pass
+    print(os.getcwd())
+    if system == 'Windows':
+        os.system(f'{launchdir}/runtime/zulu17.56.15-ca-jre17.0.14-win_x64/bin/javaw -jar ./launcher.jar')
 
 def main():
     startTime = time.time()
 
     metadata = check.synchronize()
+    print('正在检查更新...')
     check.saveMetadata(metadata)
-    check.update()
+    check.upgrade(check.update())
 
-    launcher = threading.Thread(target=os.system, args=(f'{os.getcwd()}/game/launcher.exe',))
-    launcher.daemon = True
+    if not os.path.exists('./runtime/zulu17.56.15-ca-jre17.0.14-win_x64/'):
+        try:
+            with zipfile.ZipFile('./runtime/openjdk.zip', 'r') as zip_ref:
+                zip_ref.extractall('./runtime')
+        except:
+            os.remove('./runtime/openjdk.zip')
+            check.upgrade(check.update())
+            notify.toast('ATMod Client 无法启动', '请重启启动器。')
+
+    os.chdir('game')
+    launcher = threading.Thread(target=launch, daemon=True)
     launcher.start()
 
     print(f'\n启动成功，用时 {round(time.time() - startTime, 2)} 秒。')
     notify.toast('ATMod Client 启动成功', '您的启动器已更新至最新版本。')
     
-
+    os.chdir('..')
+    updatenoticed = False
     while launcher.is_alive():
-        pass
+        remote = check.update(update=True)
+        if len(remote) != 0 and not updatenoticed:
+            notify.toast('ATMod Client 需要更新', '检测到新版本发布，重启启动器以安装更新。')
+            updatenoticed = True
+        time.sleep(10)
+        
 
 
 if __name__ == '__main__':
     print(f'ATMod Client build-{version}')
-    sys.stdout = Logger('./dump.log', sys.stdout)
-    sys.stderr = Logger(f'./dump.log', sys.stderr)
     main()

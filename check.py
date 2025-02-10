@@ -57,8 +57,7 @@ def get(meta, update = False):
         elif meta['type'] == 'single':
             www.download_file(f'{meta["url"]}/{meta["path"]}', meta['installed'][1:])
 
-def update():
-    print('正在检查版本更新...')
+def update(update = False):
     global metadata
     with open('local.json') as f:
         localmetadata = json.loads(f.read())
@@ -75,15 +74,19 @@ def update():
         else:
             updates_needed.append(dep)
 
-    if len(updates_needed) == 0:
-        print('今日无事可做。')
-    else:
+    if len(updates_needed) != 0:
         for i in updates_needed:
             get(metadata[i], update=True)
 
         saveMetadata(metadata)
-    
-    print('正在检查完整性...')
+
+    if update:
+        return updates_needed
+    else:
+        return metadata
+
+
+def upgrade(metadata):
     for i in metadata:
         get(metadata[i])
         
