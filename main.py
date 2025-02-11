@@ -7,16 +7,15 @@ import notify
 import platform
 from win32api import SetConsoleTitle
 
-version = 2
+version = '2.hotfix+1'
 SetConsoleTitle(f'ATMod Launcher build-{version} | 日志界面')
 launchdir = os.getcwd()
 
 def launch():
     system = platform.system()
 
-    print(os.getcwd())
     if system == 'Windows':
-        os.system(f'{launchdir}/runtime/zulu17.56.15-ca-jre17.0.14-win_x64/bin/javaw -jar ./launcher.jar')
+        os.system(f'{launchdir}/runtime/jdk-17.0.14+7/bin/javaw -jar ./launcher.jar')
 
 def main():
     startTime = time.time()
@@ -26,7 +25,7 @@ def main():
     check.saveMetadata(metadata)
     check.upgrade(check.update())
 
-    if not os.path.exists('./runtime/zulu17.56.15-ca-jre17.0.14-win_x64/'):
+    if not os.path.exists('./runtime/jdk-17.0.14+7/'):
         try:
             with zipfile.ZipFile('./runtime/openjdk.zip', 'r') as zip_ref:
                 zip_ref.extractall('./runtime')
